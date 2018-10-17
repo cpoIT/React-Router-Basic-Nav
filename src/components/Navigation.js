@@ -4,10 +4,19 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <div className="App">
-        <h1>React Router Mini</h1>
-          <Link to='/'>Home </Link>
-          <Link to='/about'>About </Link>
-          <Link to='/contact'>Contact </Link>
+      <div className='Nav-Bar'>
+          <Link to='/'>&#63743;</Link>
+          <Link to='/mac'>Mac</Link>
+          <Link to='/ipad'>iPad</Link>
+          <Link to='/iphone'>iPhone</Link>
+          <Link to='/watch'>Watch</Link>
+
+          <Link to='/tv'>TV</Link>
+          <Link to='/music'>Music</Link>
+          <Link to='/support'>Support</Link>
+          <Link to='/search'>&#x1F50D;</Link>
+          <Link to='/shop'>	&#128717;</Link>
+          </div>
     </div> 
   );
 };

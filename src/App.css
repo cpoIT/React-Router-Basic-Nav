@@ -9,3 +9,42 @@
 .nav-item {
   margin-top: 1rem;
 }
+
+.Nav-Bar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  height: 48px;
+  max-height: 64px;
+  padding: 10px 5rem;
+}
+
+.Nav-Bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.Nav-Bar a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.Nav-Bar a:focus {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.Nav-Bar h1 {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 48px;
+}
